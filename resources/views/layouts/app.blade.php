@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
 </head>
 
@@ -22,7 +23,7 @@
         <!-- Page Heading -->
         @if (isset($header))
             <header class="bg-white shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 mb-5">
                     {{ $header }}
                 </div>
             </header>
@@ -35,6 +36,6 @@
     </div>
 </body>
 
-<script src="{{ mix('js/app.js') }}" defer></script>
 
+<script src="https://cdn.jsdelivr.net/npm/kutty@latest/dist/kutty.min.js"></script>
 </html>

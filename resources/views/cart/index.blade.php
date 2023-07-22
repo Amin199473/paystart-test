@@ -5,6 +5,6 @@
                 {{ __('Dashboard') }}
             </h2>
         </x-slot>
-        <products></products>
+        <cart></cart>
     </div>
 </x-app-layout>
